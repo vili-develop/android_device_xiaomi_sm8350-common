@@ -19,6 +19,9 @@ debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
 debug.sf.predict_hwc_composition_strategy=0
 
+# LMKD
+ro.config.low_ram=false
+
 # Log
 persist.log.tag.ACDB-LOADER=S
 persist.log.tag.CVP=S
