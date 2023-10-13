@@ -13,6 +13,7 @@ debug.hwui.skia_atrace_enabled=false
 
 # Display
 debug.cpurend.vsync=false
+media.wfd.max_resolution=8
 
 # Graphics
 debug.sf.disable_backpressure=1
@@ -82,6 +83,3 @@ persist.vendor.vonr_setting_support=1
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
-
-# WFD
-persist.debug.wfd.enable=1
