@@ -107,6 +107,8 @@ on post-fs-data
     mkdir /data/vendor/nfc 0777 nfc nfc
 
     # Create fingerprint related directory
+    mkdir /data/vendor/misc/mi_fp 0770 system system
+    mkdir /mnt/vendor/persist/mi_fp 0770 system system
     mkdir /data/vendor/fpc 0770 system system
     mkdir /mnt/vendor/persist/fpc 0770 system system
     mkdir /data/vendor/goodix 0770 system system
